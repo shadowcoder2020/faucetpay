@@ -94,8 +94,8 @@ print(result)
 answer = requests.post(
 	url="https://api.faucetpay.io/account/login",
 	json={
-		"user_email":"shayangosi1383@gmail.com",
-		"password":"MAHAN@gosi1383",
+		"user_email":"XXXXXXXXXXXX",
+		"password":"XXXXXXXXXXXX",
 		"captcha_response":result["data"]["captcha_response"]
 	},
 	headers = {
